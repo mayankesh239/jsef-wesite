@@ -40,7 +40,7 @@ export default function BasicStatistics() {
                 fontSize={'4xl'}
                 py={10}
                 fontWeight={'bold'}>
-                Previous Year's Stats
+                Previous Year Stats
             </chakra.h1>
             <SimpleGrid columns={{ base: 1, md: 4 }} spacing={{ base: 5, lg: 8 }}>
                 <StatsCard title={'2'} stat={'Days'} />

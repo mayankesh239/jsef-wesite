@@ -60,6 +60,7 @@ export default function ProductSimple() {
                             },
                         }}>
                         <Image
+                            alt="image"
                             rounded={'lg'}
                             height={230}
                             width={282}
@@ -119,6 +120,7 @@ export default function ProductSimple() {
                             },
                         }}>
                         <Image
+                            alt="image"
                             rounded={'lg'}
                             height={230}
                             width={282}
@@ -176,6 +178,7 @@ export default function ProductSimple() {
                             },
                         }}>
                         <Image
+                            alt="image"
                             rounded={'lg'}
                             height={230}
                             width={282}
@@ -236,6 +239,7 @@ export default function ProductSimple() {
                             },
                         }}>
                         <Image
+                            alt="image"
                             rounded={'lg'}
                             height={230}
                             width={282}
@@ -295,6 +299,7 @@ export default function ProductSimple() {
                             },
                         }}>
                         <Image
+                            alt="image"
                             rounded={'lg'}
                             height={230}
                             width={282}
@@ -352,6 +357,7 @@ export default function ProductSimple() {
                             },
                         }}>
                         <Image
+                            alt="image"
                             rounded={'lg'}
                             height={230}
                             width={282}

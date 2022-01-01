@@ -27,13 +27,13 @@ const faq = () => {
                         <h2>
                             <AccordionButton>
                                 <Box flex='1' textAlign='left'>
-                                    Is JSEF'20 a two-day fest?
+                                    Is JSEF 20 a two-day fest?
                                 </Box>
                                 <AccordionIcon />
                             </AccordionButton>
                         </h2>
                         <AccordionPanel pb={4}>
-                            Yes, JSEF'21 is being held on 1st February for school students and on 2nd February for College students.
+                            Yes, JSEF 21 is being held on 1st February for school students and on 2nd February for College students.
                         </AccordionPanel>
                     </AccordionItem>
 

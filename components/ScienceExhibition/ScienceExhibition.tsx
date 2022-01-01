@@ -116,7 +116,7 @@ const ArticleList = () => {
                         marginTop="2"
                         color={useColorModeValue('gray.700', 'gray.200')}
                         fontSize="lg">
-                        The theme for JSEF'20 is clean and affordable energy, the 7th goal of sustainable development goal
+                        The theme for JSEF 21 is clean and affordable energy, the 7th goal of sustainable development goal
                     </Text>
                 </Box>
             </Box>
