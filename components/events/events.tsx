@@ -51,7 +51,6 @@ const backgrounds = [
 
 interface TestimonialCardProps {
     name: string;
-    role: string;
     content: string;
     avatar: string;
     index: number;
@@ -59,7 +58,7 @@ interface TestimonialCardProps {
 }
 
 function TestmonialCard(props: TestimonialCardProps) {
-    const { name, role, content, avatar, index } = props;
+    const { name, content, avatar, index } = props;
     return (
         <Flex
             boxShadow={'lg'}
@@ -110,13 +109,6 @@ function TestmonialCard(props: TestimonialCardProps) {
                 </chakra.p>
                 <chakra.p fontFamily={'Helvetica'} fontWeight={'bold'} fontSize={14}>
                     {name}
-                    <chakra.span
-                        fontFamily={'Inter'}
-                        fontWeight={'medium'}
-                        color={'gray.500'}>
-                        {' '}
-                        - {role}
-                    </chakra.span>
                 </chakra.p>
             </Flex>
             <Avatar
