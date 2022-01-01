@@ -4,6 +4,7 @@ import {
     Stack,
     Text,
     useBreakpointValue,
+    Link
 } from '@chakra-ui/react';
 import Image from 'next/image'
 import Typewriter from "typewriter-effect";
@@ -40,7 +41,13 @@ export default function SplitScreen() {
                     </Heading>
                     <Text fontSize={{ base: 'md', lg: 'lg' }} color={'black.500'}>
                         The Jharkhand Science and Environment Festival or The JSEF as it is popularly known, is EPAC (Environment Protection and Awareness Club) BIT Mesra’s flagship event which is organised in the month of January.
+                        {/* <Link
+                            href="/"
+                        >
+                            Click Me
+                        </Link> */}
                     </Text>
+
                 </Stack>
             </Flex>
             <Flex flex={1}>
