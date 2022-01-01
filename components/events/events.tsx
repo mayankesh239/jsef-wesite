@@ -175,7 +175,7 @@ export default function GridBlurredBackdrop() {
                 mx={'auto'}>
                 {testimonials.map((cardInfo, index) => (
                     // <Link href={href}>
-                        <TestmonialCard {...cardInfo} index={index} />
+                        <TestmonialCard {...cardInfo}  key={index} index={index} />
                     // </Link>
                 ))}
             </SimpleGrid>

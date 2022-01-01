@@ -2,18 +2,13 @@ import {
   Box,
   chakra,
   Container,
-  Link,
-  SimpleGrid,
   Stack,
   Text,
   VisuallyHidden,
-  Input,
-  IconButton,
   useColorModeValue,
 } from '@chakra-ui/react';
 import { ReactNode } from 'react';
 import { FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
-import { BiMailSend } from 'react-icons/bi';
 
 const Logo = (props: any) => {
   return (
@@ -138,7 +133,7 @@ export default function LargeWithNewsletter() {
             </Stack>
 
             <Stack >
-              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14645.335331194405!2d85.439901!3d23.412305!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x66180c1cf3c5e704!2sBirla%20Institute%20of%20Technology%20-%20Mesra!5e0!3m2!1sen!2sin!4v1640932553544!5m2!1sen!2sin" width="600" height="450" allowfullscreen="" loading="lazy"></iframe>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14645.335331194405!2d85.439901!3d23.412305!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x66180c1cf3c5e704!2sBirla%20Institute%20of%20Technology%20-%20Mesra!5e0!3m2!1sen!2sin!4v1640932553544!5m2!1sen!2sin" width="600" height="450"  loading="lazy"></iframe>
             </Stack>
           </Stack>
         </Container>
