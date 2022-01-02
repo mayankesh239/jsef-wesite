@@ -25,7 +25,7 @@ export default function ProductSimple() {
             >
                 OUR OLD SPONSORS
             </chakra.h1>
-            <Center py={12}>
+            <Center py={10}>
 
                 <Box
                     role={'group'}
@@ -87,7 +87,7 @@ export default function ProductSimple() {
                 </Box>
 
 
-                <Box
+                {/* <Box
                     role={'group'}
                     p={6}
                     maxW={'330px'}
@@ -144,7 +144,7 @@ export default function ProductSimple() {
                             </Text>
                         </Stack>
                     </Stack>
-                </Box>
+                </Box> */}
                 <Box
                     role={'group'}
                     p={6}
@@ -205,7 +205,7 @@ export default function ProductSimple() {
                 </Box>
             </Center>
 
-            <Center py={12}>
+            <Center py={10}>
                 <Box
                     role={'group'}
                     p={6}
@@ -266,7 +266,7 @@ export default function ProductSimple() {
                 </Box>
 
 
-                <Box
+                {/* <Box
                     role={'group'}
                     p={6}
                     maxW={'330px'}
@@ -323,7 +323,7 @@ export default function ProductSimple() {
                             </Text>
                         </Stack>
                     </Stack>
-                </Box>
+                </Box> */}
                 <Box
                     role={'group'}
                     p={6}

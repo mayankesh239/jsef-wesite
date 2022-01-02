@@ -57,7 +57,7 @@ export default function LargeWithAppLinksAndSocial() {
     <Box
       bg={useColorModeValue('gray.50', 'gray.900')}
       color={useColorModeValue('gray.700', 'gray.200')}>
-      <Container as={Stack} maxW={'6xl'} py={10}>
+      <Container as={Stack} maxW={'6xl'} py={20}>
         <SimpleGrid columns={{ base: 1, sm: 2, md: 3 }} spacing={8}>
           <Stack align={'flex-start'}>
             <ListHeader>Reach Us</ListHeader>
@@ -89,7 +89,7 @@ export default function LargeWithAppLinksAndSocial() {
           </Stack>
 
           <Stack align={'flex-start'}>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14645.335331194405!2d85.439901!3d23.412305!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x66180c1cf3c5e704!2sBirla%20Institute%20of%20Technology%20-%20Mesra!5e0!3m2!1sen!2sin!4v1640932553544!5m2!1sen!2sin" width="330vw" height="350vw" loading="lazy"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14645.335331194405!2d85.439901!3d23.412305!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x66180c1cf3c5e704!2sBirla%20Institute%20of%20Technology%20-%20Mesra!5e0!3m2!1sen!2sin!4v1640932553544!5m2!1sen!2sin" width="100%" height="100%" loading="lazy"></iframe>
 
           </Stack>
         </SimpleGrid>
