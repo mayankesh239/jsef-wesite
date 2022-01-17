@@ -6,7 +6,7 @@ const Faq = () => {
     return (
         <div>
             <FaqUI />
-            <iframe className={styles.faq_collection} height="450px"
+            <iframe className={styles.faq_collection} 
                 src="https://www.youtube.com/embed/73sDcOq8Ss4">
             </iframe>
         </div>
