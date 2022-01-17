@@ -1,5 +1,5 @@
 import React from 'react'
-import EnvironerScientiaUI from './EnvironerScientia'
+import EnvironerScientiaUI from './LetsLearnMore'
 const Introduction = () => {
     return (
         <div>

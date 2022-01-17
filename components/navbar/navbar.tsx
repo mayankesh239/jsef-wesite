@@ -228,8 +228,8 @@ const NAV_ITEMS: Array<NavItem> = [
     href: "/",
   },
   {
-    label: 'ENVIRONER SCIENTIA',
-    href: "/EnvironerScientia",
+    label: 'LETS LEARN MORE',
+    href: "/LetsLearnMore",
   },
   {
     label: 'ADSENSE',

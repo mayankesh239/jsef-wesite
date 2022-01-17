@@ -60,7 +60,7 @@ const ArticleList = () => {
     return (
         <Container maxW={'7xl'} p="12">
             <Heading as="h1">
-                Environer Scientia</Heading>
+            Let's Learn More</Heading>
             <Box
                 marginTop={{ base: '1', sm: '5' }}
                 display="flex"
@@ -116,14 +116,14 @@ const ArticleList = () => {
                         marginTop="2"
                         color={useColorModeValue('gray.700', 'gray.200')}
                         fontSize="lg">
-                        A model making competition that not only focuses on the science but also the environmental aspect of it. This event allows students to soar to their imaginative heights and work on their presentation skills. The contestants are expected to make a model on the given theme. The judging will be based on the creativity of the project, relatability to the theme and explanation by the participants.                     </Text>
+                        An informative webinar as a part of JSEF to help students learn more about what's going on or what's new or what's cooking in our Environment. We invite a prominent Environmentalist on our platform to share their views, ideas and opinions on the topics they think deserve attention at this moment.                     </Text>
                 </Box>
             </Box>
             <Divider marginTop="5" />
             <VStack paddingTop="40px" spacing="2" alignItems="flex-start">
                 {/* <Heading as="h2">What we write about</Heading> */}
-                <Text as="p" fontSize="lg">A video of 2 min would be submitted in a google form not exceeding more than 2 MB and the top 5 teams will be asked to present it live.
-                </Text>
+                {/* <Text as="p" fontSize="lg">A video of 2 min would be submitted in a google form not exceeding more than 2 MB and the top 5 teams will be asked to present it live. */}
+                {/* </Text> */}
             </VStack>
         </Container>
     );
