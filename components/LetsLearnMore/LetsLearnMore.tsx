@@ -60,7 +60,7 @@ const ArticleList = () => {
     return (
         <Container maxW={'7xl'} p="12">
             <Heading as="h1">
-            Let's Learn More</Heading>
+            Let&apos;s Learn More</Heading>
             <Box
                 marginTop={{ base: '1', sm: '5' }}
                 display="flex"
@@ -116,7 +116,7 @@ const ArticleList = () => {
                         marginTop="2"
                         color={useColorModeValue('gray.700', 'gray.200')}
                         fontSize="lg">
-                        An informative webinar as a part of JSEF to help students learn more about what's going on or what's new or what's cooking in our Environment. We invite a prominent Environmentalist on our platform to share their views, ideas and opinions on the topics they think deserve attention at this moment.                     </Text>
+                        An informative webinar as a part of JSEF to help students learn more about what&apos;s going on or what&apos;s new or what&apos;s cooking in our Environment. We invite a prominent Environmentalist on our platform to share their views, ideas and opinions on the topics they think deserve attention at this moment.                     </Text>
                 </Box>
             </Box>
             <Divider marginTop="5" />

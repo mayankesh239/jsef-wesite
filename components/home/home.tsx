@@ -9,7 +9,7 @@ import {
 import Image from 'next/image'
 import Typewriter from "typewriter-effect";
 import styles from './home.module.scss'
-
+import { Button, ButtonGroup } from '@chakra-ui/react'
 import coverPic from '../../public/cover.webp'
 export default function SplitScreen() {
     return (
@@ -31,7 +31,7 @@ export default function SplitScreen() {
                             }}>
                             <Typewriter
                                 options={{
-                                    strings: ['JSEF 2022', 'FOR EAST ZONE'],
+                                    strings: ['EPAC PRESENTS', 'JSEF 2022'],
                                     autoStart: true,
                                     loop: true,
                                 }}
@@ -53,7 +53,11 @@ export default function SplitScreen() {
                             Click Me
                         </Link> */}
                     </Text>
-
+                    <a href="https://forms.gle/47gscWtv3CVUBAZH9">
+                        <Button colorScheme='teal' size='md'>
+                            REGISTER HERE
+                        </Button>
+                    </a>
                 </Stack>
             </Flex>
             <Flex flex={1}>

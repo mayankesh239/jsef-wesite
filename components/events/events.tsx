@@ -34,9 +34,9 @@ const testimonials = [
     },
     {
         // href: "/",
-        content: 'Environer Scientia',
+        content: 'LET \'S LEARN MORE',
         name:
-            'A model making competition that not only focuses on the science but also the environmental aspect of it. This event allows students to soar to their imaginative heights and work on their presentation skills. The contestants are expected to make a model on the given theme. The judging will be based on the creativity of the project, relatability to the theme and explanation by the participants. A video of 2 min would be submitted in a google form not exceeding more than 2 MB and the top 5 teams will be asked to present it live.            ',
+            'An informative webinar as a part of JSEF to help students learn more about what\'s going on or what\'s new or whats cooking in our Environment. We invite a prominent Environmentalist on our platform to share their views, ideas and opinions on the topics they think deserve attention at this moment.            ',
         avatar:
             'https://res.cloudinary.com/mayankesh/image/upload/v1640929513/jsef/quiz_lno4uk.webp',
     },
