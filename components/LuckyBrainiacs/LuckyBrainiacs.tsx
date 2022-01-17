@@ -117,7 +117,7 @@ const ArticleList = () => {
                         marginTop="2"
                         color={useColorModeValue('gray.700', 'gray.200')}
                         fontSize="lg">
-                        This year, we have introduced a novel event which is an amalgamation of an American BINGO, product restoration and wordplay on the theme of Environment. The first round is a BINGO followed by a round to fabricate a highly efficient restored product. The parameters for judgement will be the product’s use to the environment and its cost-effectiveness. The final round will test the participant's wordplay and impromptu thinking skills.               </Text>
+                        This year, we have introduced a novel event which is an amalgamation of an American BINGO, product restoration and wordplay on the theme of Environment. The first round is a BINGO followed by a round to fabricate a highly efficient restored product. The parameters for judgement will be the use of the product to the environment and its cost-effectiveness. The final round will test the participant's wordplay and impromptu thinking skills.               </Text>
                 </Box>
             </Box>
             <Divider marginTop="5" />
