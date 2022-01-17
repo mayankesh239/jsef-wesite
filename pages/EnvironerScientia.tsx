@@ -4,7 +4,7 @@ import Footer from '../components/footer'
 import Navbar from "../components/navbar/index"
 import EnvironerScientia from '../components/EnvironerScientia/index'
 import { ColorModeScript } from '@chakra-ui/react'
-import theme from './theme'
+import theme from './api/theme'
 const Home: NextPage = () => {
     return (
         <div className={styles.container}>

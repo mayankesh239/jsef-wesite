@@ -13,7 +13,7 @@ import Navbar from "../components/navbar/index"
 import Faq from '../components/faq'
 
 import { ColorModeScript } from '@chakra-ui/react'
-import theme from './theme'
+import theme from './api/theme'
 
 const Home: NextPage = () => {
   return (
