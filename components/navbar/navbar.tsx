@@ -27,7 +27,7 @@ import {
 export default function WithSubnavigation() {
   const { isOpen, onToggle } = useDisclosure();
   const { colorMode, toggleColorMode } = useColorMode();
-  
+
   return (
     <Box bg={useColorModeValue('gray.100', 'gray.900')} px={4}>
       <Flex
@@ -242,5 +242,9 @@ const NAV_ITEMS: Array<NavItem> = [
   {
     label: 'LUCKY BRAINIACS',
     href: "/LuckyBrainiacs",
+  },
+  {
+    label: 'REGISTER',
+    href: "/Register",
   },
 ];
