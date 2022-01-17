@@ -60,7 +60,7 @@ const ArticleList = () => {
   return (
     <Container maxW={'7xl'} p="12">
       <Heading as="h1">
-        Ad Scene</Heading>
+        Adsense</Heading>
       <Box
         marginTop={{ base: '1', sm: '5' }}
         display="flex"
@@ -117,14 +117,14 @@ const ArticleList = () => {
             marginTop="2"
             color={useColorModeValue('gray.700', 'gray.200')}
             fontSize="lg">
-            We see many advertisements in our day-to-day life on social media platforms online as well as on televisions or the print media. But, what if we get to market our idea and advertise it?                 </Text>
+           Marketing is the king of all industries, and advertisements are one of the main sources of marketing. With the growth of sustainable industries, the marketing of such products is crucial. With this event, we aim to make students aware of the rising sustainable industry and also give them a taste of the marketing industry.                  </Text>
         </Box>
       </Box>
       <Divider marginTop="5" />
       <VStack paddingTop="40px" spacing="2" alignItems="flex-start">
         {/* <Heading as="h2">What we write about</Heading> */}
         <Text as="p" fontSize="lg">
-          Well, in this exciting team event, the participants are required to make a painting on any one of the given set of topics be it related to the environment, an enticing line is to be framed and a message in around 60 words is to be formulated and thence advertised to the jury.               </Text>
+          This event requires the participants to promote a given product in the form of a painting along with a strong message of 60 words in stipulated time. And then advertise the same to the jury.    </Text>
       </VStack>
     </Container>
   );

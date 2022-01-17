@@ -60,7 +60,7 @@ const ArticleList = () => {
     return (
         <Container maxW={'7xl'} p="12">
             <Heading as="h1">
-                Video Competition</Heading>
+            Lucky Brainiacs</Heading>
             <Box
                 marginTop={{ base: '1', sm: '5' }}
                 display="flex"
@@ -109,7 +109,7 @@ const ArticleList = () => {
                     {/* <BlogTags tags={['Engineering', 'Product']} /> */}
                     <Heading marginTop="1">
                         <Link textDecoration="none" _hover={{ textDecoration: 'none' }}>
-                            Themes:
+                            {/* Themes: */}
                         </Link>
                     </Heading>
                     <Text
@@ -117,15 +117,15 @@ const ArticleList = () => {
                         marginTop="2"
                         color={useColorModeValue('gray.700', 'gray.200')}
                         fontSize="lg">
-                        Science, Nature and Technology                    </Text>
+                        This year, we have introduced a novel event which is an amalgamation of an American BINGO, product restoration and wordplay on the theme of Environment. The first round is a BINGO followed by a round to fabricate a highly efficient restored product. The parameters for judgement will be the product’s use to the environment and its cost-effectiveness. The final round will test the participant's wordplay and impromptu thinking skills.               </Text>
                 </Box>
             </Box>
             <Divider marginTop="5" />
-            <VStack paddingTop="40px" spacing="2" alignItems="flex-start">
+            {/* <VStack paddingTop="40px" spacing="2" alignItems="flex-start"> */}
                 {/* <Heading as="h2">What we write about</Heading> */}
-                <Text as="p" fontSize="lg">
-                    A Quiz is always one of the most exciting events where sheer intelligence, eminent knowledge and self-awareness are put to test at a single go! Science, technology and environment quiz for students from all over the state is conducted where we look for a brain that will battle through a gruelling competition of brilliance and emerge Victors!                </Text>
-            </VStack>
+                {/* <Text as="p" fontSize="lg">
+                    A Quiz is always one of the most exciting events where sheer intelligence, eminent knowledge and self-awareness are put to test at a single go! Science, technology and environment quiz for students from all over the state is conducted where we look for a brain that will battle through a gruelling competition of brilliance and emerge Victors!                </Text> */}
+            {/* </VStack> */}
         </Container>
     );
 };

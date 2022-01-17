@@ -8,6 +8,7 @@ import {
     AccordionIcon,
     chakra,
 } from '@chakra-ui/react';
+
 const faq = () => {
     return (
         <>

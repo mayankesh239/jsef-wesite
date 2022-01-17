@@ -31,7 +31,7 @@ export default function SplitScreen() {
                             }}>
                             <Typewriter
                                 options={{
-                                    strings: ['JSEF 2021', 'FOR EAST ZONE'],
+                                    strings: ['JSEF 2022', 'FOR EAST ZONE'],
                                     autoStart: true,
                                     loop: true,
                                 }}
@@ -40,7 +40,13 @@ export default function SplitScreen() {
                         <br />{' '}
                     </Heading>
                     <Text fontSize={{ base: 'md', lg: 'lg' }} color={'black.500'}>
-                        The Jharkhand Science and Environment Festival or The JSEF as it is popularly known, is EPAC (Environment Protection and Awareness Club) BIT Mesra’s flagship event which is organised in the month of January.
+                        JSEF is our flagship event held every year in January and February.
+                        With this event, we aim to encourage the young generation to protect
+                        and preserve the environment. JSEF is a multi-day fest filled with
+                        enthralling events such as debates, model making and AdSense.
+                        JSEF is also one of the largest Science-Environmental fests in the
+                        East zone with the participation of more than 25+ schools and 500
+                        students.
                         {/* <Link
                             href="/"
                         >

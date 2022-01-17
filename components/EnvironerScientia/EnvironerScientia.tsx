@@ -60,7 +60,7 @@ const ArticleList = () => {
     return (
         <Container maxW={'7xl'} p="12">
             <Heading as="h1">
-                Science Exhibition</Heading>
+                Environer Scientia</Heading>
             <Box
                 marginTop={{ base: '1', sm: '5' }}
                 display="flex"
@@ -81,7 +81,7 @@ const ArticleList = () => {
                             <Image
                                 borderRadius="lg"
                                 src={
-                                    'https://res.cloudinary.com/mayankesh/image/upload/v1640929515/jsef/science_exhibition_wtj5go.webp'                                }
+                                    'https://res.cloudinary.com/mayankesh/image/upload/v1640929515/jsef/science_exhibition_wtj5go.webp'}
                                 alt="some good alt text"
                                 objectFit="contain"
                             />
@@ -116,15 +116,13 @@ const ArticleList = () => {
                         marginTop="2"
                         color={useColorModeValue('gray.700', 'gray.200')}
                         fontSize="lg">
-                        The theme for JSEF 21 is clean and affordable energy, the 7th goal of sustainable development goal
-                    </Text>
+                        A model making competition that not only focuses on the science but also the environmental aspect of it. This event allows students to soar to their imaginative heights and work on their presentation skills. The contestants are expected to make a model on the given theme. The judging will be based on the creativity of the project, relatability to the theme and explanation by the participants.                     </Text>
                 </Box>
             </Box>
             <Divider marginTop="5" />
             <VStack paddingTop="40px" spacing="2" alignItems="flex-start">
                 {/* <Heading as="h2">What we write about</Heading> */}
-                <Text as="p" fontSize="lg">
-                The Science exhibition is organised to enable students to simulate your ideas and give them the wings to soar to highs of imaginative success and demonstration! And, thus, the exhibition of ideas in the form of models/ working models that deal with scientific knowledge and environmental on a miniature level is conducted with all the pomp and show by JSEF.
+                <Text as="p" fontSize="lg">A video of 2 min would be submitted in a google form not exceeding more than 2 MB and the top 5 teams will be asked to present it live.
                 </Text>
             </VStack>
         </Container>

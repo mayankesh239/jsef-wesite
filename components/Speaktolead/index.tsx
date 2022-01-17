@@ -1,10 +1,10 @@
 import React from 'react'
-import DebateUI from './Debate'
+import SpeaktoleadUI from './Speaktolead'
 
 const DebateComp = () => {
     return (
         <div>
-            <DebateUI></DebateUI>
+            <SpeaktoleadUI></SpeaktoleadUI>
         </div>
     )
 }

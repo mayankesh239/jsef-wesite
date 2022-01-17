@@ -13,30 +13,30 @@ import Link from 'next/link';
 const testimonials = [
     {
         // href: "/ScienceExhibition",
-        content: 'Science Exhibition',
-        name: "Themes The theme for JSEF'20 is clean and affordable energy, the 7th goal of sustainable development goal  The Science exhibition is organised to enable students to simulate your ideas and give them the wings to soar to highs of imaginative success and demonstration! And, thus, the exhibition of ideas in the form of models/ working models that deal with scientific knowledge and environmental on a miniature level is conducted with all the pomp and show by JSEF",
+        content: 'Lucky Brainiacs',
+        name: " This year, we have introduced a novel event which is an amalgamation of an American BINGO, product restoration and wordplay on the theme of Environment. The first round is a BINGO followed by a round to fabricate a highly efficient restored product. The parameters for judgement will be the product’s use to the environment and its cost-effectiveness. The final round will test the participant's wordplay and impromptu thinking skills.",
         avatar:
             'https://res.cloudinary.com/mayankesh/image/upload/v1640929515/jsef/science_exhibition_wtj5go.webp',
     },
     {
         // href: "/",
-        name: 'We see many advertisements in our day-to-day life on social media platforms online as well as on televisions or the print media. But, what if we get to market our idea and advertise it? Well, in this exciting team event, the participants are required to make a painting on any one of the given set of topics be it related to the environment, an enticing line is to be framed and a message in around 60 words is to be formulated and thence advertised to the jury.',
-        content: "Ad-Sense",
+        name: 'Marketing is the king of all industries, and advertisements are one of the main sources of marketing. With the growth of sustainable industries, the marketing of such products is crucial. With this event, we aim to make students aware of the rising sustainable industry and also give them a taste of the marketing industry. This event requires the participants to promote a given product in the form of a painting along with a strong message of 60 words in stipulated time. And then advertise the same to the jury.',
+        content: "Adsense",
         avatar:
             'https://res.cloudinary.com/mayankesh/image/upload/v1640926826/jsef/ad_Scene_vfa3wo.webp',
     },
     {
         // href: "/",
-        content: "Debate",
-        name: 'Here, JSEF tests the speaking skills of students along with judging their presence of mind and idea towards any environmental issue provided and how well they can use their rhetorical prowess to contribute towards the societyThis event is made of two conventional rounds. The Preliminary round is an extempore and the final round is a parliamentary debate competition for which the topic based on Science and Environment is announced after the prelims.',
+        content: "Speak to lead",
+        name: ' An extempore that enables the participants to improve their speaking skills and also brainstorm ideas and arguments to uphold. The judging will be based on the participants speaking skills, relatability to the topic and their ideas. This will be a two-day event and the number of rounds depends on the participation.',
         avatar:
             'https://res.cloudinary.com/mayankesh/image/upload/v1640929236/jsef/debate_gpticc.webp',
     },
     {
         // href: "/",
-        content: 'Quiz',
+        content: 'Environer Scientia',
         name:
-            'Theme: Science, Nature and Technology A Quiz is always one of the most exciting events where sheer intelligence, eminent knowledge and self-awareness are put to test at a single go! Science, technology and environment quiz for students from all over the state is conducted where we look for a brain that will battle through a gruelling competition of brilliance and emerge Victors!',
+            'A model making competition that not only focuses on the science but also the environmental aspect of it. This event allows students to soar to their imaginative heights and work on their presentation skills. The contestants are expected to make a model on the given theme. The judging will be based on the creativity of the project, relatability to the theme and explanation by the participants. A video of 2 min would be submitted in a google form not exceeding more than 2 MB and the top 5 teams will be asked to present it live.            ',
         avatar:
             'https://res.cloudinary.com/mayankesh/image/upload/v1640929513/jsef/quiz_lno4uk.webp',
     },
@@ -167,7 +167,7 @@ export default function GridBlurredBackdrop() {
                 mx={'auto'}>
                 {testimonials.map((cardInfo, index) => (
                     // <Link href={href}>
-                        <TestmonialCard {...cardInfo}  key={index} index={index} />
+                    <TestmonialCard {...cardInfo} key={index} index={index} />
                     // </Link>
                 ))}
             </SimpleGrid>

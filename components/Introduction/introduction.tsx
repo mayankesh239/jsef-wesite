@@ -59,14 +59,32 @@ export default function SplitWithImage() {
                     <Heading>Environment Protection and Awareness Club, BIT Mesra
                     </Heading>
                     <Text color={'gray.500'} fontSize={'lg'}>
-                        The Environment Protection and Awareness Club (EPAC) is a registered club of this hallowed institution and was set up in BIT, Mesra on 5th of September 2011 and has been one of the most industrious clubs of BIT Mesra ever since. It has been expanding its activities by leaps and bounds and has been deeply influencing the youth of BIT to work towards the holy and all-important cause of protection of the Environment. In this hallowed institution shall EPAC’s endeavour begin, which shall never culminate because protecting the environment is not just a journey that is destined to end, it’s a sacred responsibility for each and every one.
+                        The Environment Protection and Awareness Club, of BIT Mesra,
+                        popularly known as EPAC, is a club whose motive is to in fuse
+                        awareness about the detrimental effects caused by overexploitation
+                        of natural resources. We as a student body aim to improvise the
+                        existing systems to favour nature. We create awareness fun events
+                        and choose to never stop even if the world shuts down.
+                        <br />Because the Earth needs us! And we firmly believe that the young
+                        minds of today's generation can be the start of a massive change
+                        that helps humanity to survive longer on their beloved planet.
                     </Text>
 
                     <Heading>Jharkhand Science and Environment Festival (JSEF)
 
                     </Heading>
                     <Text color={'gray.500'} fontSize={'lg'}>
-                    The Jharkhand Science and Environment Festival or The JSEF as it is popularly known, is EPAC (Environment Protection & Awareness Club) BIT Mesra’s flagship event which is organised in the month of January. This is an annual competition which has been organised successively for the past 9 years for school and college students. The fest features a plethora of enthralling events related to science and environment conservation. For the first time ever, JSEF ’20 will be expanding into East India into the states of Bihar, West Bengal, Odisha and Chattisgarh after multiple requests for involvement from premier institutions of these states.                    </Text>
+                        JSEF is our flagship event held every year in January and February.
+                        With this event, we aim to encourage the young generation to protect
+                        and preserve the environment. JSEF is a multi-day fest filled with
+                        enthralling events such as debates, model making and AdSense.
+                        JSEF is also one of the largest Science-Environmental fests in the
+                        East zone with the participation of more than 25+ schools and 500
+                        students.
+                        <br />JSEF has been restricted to the East zone for the past few years but
+                        this year we have decided to spread our wings to the entire country.
+                        JSEF 2022 will be held online.
+                    </Text>
                     <Stack
                         spacing={4}
                         divider={
@@ -74,7 +92,7 @@ export default function SplitWithImage() {
                                 borderColor={useColorModeValue('gray.100', 'gray.700')}
                             />
                         }>
-                        <Feature
+                        {/* <Feature
                             icon={
                                 <Icon as={IoAnalyticsSharp} color={'yellow.500'} w={5} h={5} />
                             }
@@ -92,7 +110,7 @@ export default function SplitWithImage() {
                             }
                             iconBg={useColorModeValue('purple.100', 'purple.900')}
                             text={'Market Analysis'}
-                        />
+                        /> */}
                     </Stack>
                 </Stack>
                 <Flex>

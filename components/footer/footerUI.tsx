@@ -70,22 +70,18 @@ export default function LargeWithAppLinksAndSocial() {
 
           <Stack align={'flex-start'}>
             <ListHeader>Contact</ListHeader>
-            <Link>Dr. R. Naresh Kumar</Link>
-            <Link>(+91-9801160279)</Link>
+            <Link>DHYAN</Link>
+            <Link>(+91-9523952623)</Link>
             <Link>{" "}</Link>
 
-            <Link>Mahima Prasad</Link>
-            <Link>(+91-7070173556)</Link>
+            <Link>TANYA</Link>
+            <Link>(+91-9934412901)</Link>
             <Link>{" "}</Link>
 
-            <Link>Sudarshan</Link>
-            <Link>(+91-9505505276​)</Link>
+            <Link>PRIYANSH</Link>
+            <Link>(+91-6203993196)</Link>
             <Link>{" "}</Link>
 
-
-            <Link>Shivani</Link>
-            <Link>(+91-7366912904)</Link>
-            <Link>{" "}</Link>
           </Stack>
 
           <Stack align={'flex-start'}>
@@ -107,7 +103,7 @@ export default function LargeWithAppLinksAndSocial() {
           spacing={4}
           justify={{ md: 'space-between' }}
           align={{ md: 'center' }}>
-          <Text>© 2021 All rights reserved</Text>
+          <Text>© 2022 All rights reserved</Text>
           <Stack direction={'row'} spacing={6}>
             <SocialButton label={'Twitter'} href={'#'}>
               <FaTwitter />

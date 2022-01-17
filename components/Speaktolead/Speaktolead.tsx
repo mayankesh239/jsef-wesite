@@ -58,7 +58,7 @@ const ArticleList = () => {
   return (
     <Container maxW={'7xl'} p="12">
       <Heading as="h1">
-        Debate</Heading>
+      Speak to lead</Heading>
       <Box
         marginTop={{ base: '1', sm: '5' }}
         display="flex"
@@ -114,15 +114,14 @@ const ArticleList = () => {
             as="p"
             marginTop="2"
             color={useColorModeValue('gray.700', 'gray.200')}
-            fontSize="lg">
-            Here, JSEF tests the speaking skills of students along with judging their presence of mind and idea towards any environmental issue provided and how well they can use their rhetorical prowess to contribute towards the society              </Text>
+            fontSize="lg"> An extempore that enables the participants to improve their speaking skills and also brainstorm ideas and arguments to uphold. The judging will be based on the participants speaking skills, relatability to the topic and their ideas. This will be a two-day event and the number of rounds depends on the participation.</Text>
         </Box>
       </Box>
       <Divider marginTop="5" />
       <VStack paddingTop="40px" spacing="2" alignItems="flex-start">
         {/* <Heading as="h2">What we write about</Heading> */}
-        <Text as="p" fontSize="lg">
-          This event is made of two conventional rounds. The Preliminary round is an extempore and the final round is a parliamentary debate competition for which the topic based on Science and Environment is announced after the prelims.              </Text>
+        {/* <Text as="p" fontSize="lg">
+          This event is made of two conventional rounds. The Preliminary round is an extempore and the final round is a parliamentary debate competition for which the topic based on Science and Environment is announced after the prelims.              </Text> */}
       </VStack>
     </Container>
   );

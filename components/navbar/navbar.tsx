@@ -3,7 +3,6 @@ import {
   Flex,
   Text,
   IconButton,
-  Button,
   Stack,
   Collapse,
   Icon,
@@ -28,9 +27,8 @@ import {
 export default function WithSubnavigation() {
   const { isOpen, onToggle } = useDisclosure();
   const { colorMode, toggleColorMode } = useColorMode();
-
+  
   return (
-
     <Box bg={useColorModeValue('gray.100', 'gray.900')} px={4}>
       <Flex
         bg={useColorModeValue('white', 'gray.800')}
@@ -62,9 +60,6 @@ export default function WithSubnavigation() {
         </Flex>
         <Flex alignItems={'center'}>
           <Stack direction={'row'} spacing={7}>
-            <Button onClick={toggleColorMode}>
-              {colorMode === 'light' ? <MoonIcon /> : <SunIcon />}
-            </Button>
           </Stack>
         </Flex>
       </Flex>
@@ -233,19 +228,19 @@ const NAV_ITEMS: Array<NavItem> = [
     href: "/",
   },
   {
-    label: 'SCIENCE EXHIBITION',
-    href: "/ScienceExhibition",
+    label: 'ENVIRONER SCIENTIA',
+    href: "/EnvironerScientia",
   },
   {
-    label: 'AD-SCENE',
-    href: "/AdScene",
+    label: 'ADSENSE',
+    href: "/AdSense",
   },
   {
-    label: 'DEBATE',
-    href: "/Debate",
+    label: 'SPEAK TO LEAD',
+    href: "/Speaktolead",
   },
   {
-    label: 'QUIZ',
-    href: "/Video_related_competition",
+    label: 'LUCKY BRAINIACS',
+    href: "/LuckyBrainiacs",
   },
 ];

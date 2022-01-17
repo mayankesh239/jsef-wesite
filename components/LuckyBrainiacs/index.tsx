@@ -1,9 +1,9 @@
 import React from 'react'
-import VideoEditingCompetition from './VideoExhibition'
+import LuckyBrainiacs from './LuckyBrainiacs'
 const Vcompetition = () => {
     return (
         <div>
-            <VideoEditingCompetition />
+            <LuckyBrainiacs />
         </div>
     )
 }

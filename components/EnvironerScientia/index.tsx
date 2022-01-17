@@ -1,9 +1,9 @@
 import React from 'react'
-import ScienceExhibitionUI from './ScienceExhibition'
+import EnvironerScientiaUI from './EnvironerScientia'
 const Introduction = () => {
     return (
         <div>
-            <ScienceExhibitionUI />
+            <EnvironerScientiaUI />
         </div>
     )
 }
