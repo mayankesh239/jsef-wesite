@@ -10,6 +10,11 @@ import {
     Icon,
     useColorModeValue,
 } from '@chakra-ui/react';
+import {
+    IoAnalyticsSharp,
+    IoLogoBitcoin,
+    IoSearchSharp,
+} from 'react-icons/io5';
 import { ReactElement } from 'react';
 
 interface FeatureProps {
@@ -61,7 +66,7 @@ export default function SplitWithImage() {
                         existing systems to favour nature. We create awareness fun events
                         and choose to never stop even if the world shuts down.
                         <br />Because the Earth needs us! And we firmly believe that the young
-                        minds of our generation can be the start of a massive change
+                        minds of today&apos;s generation can be the start of a massive change
                         that helps humanity to survive longer on their beloved planet.
                     </Text>
 
