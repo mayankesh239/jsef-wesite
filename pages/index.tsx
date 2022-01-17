@@ -1,9 +1,9 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Image from 'next/image'
+// import Image from 'next/image'
 import styles from '../styles/Home.module.scss'
 import HomeComp from '../components/home/index'
-import Introduction from '../components/Introduction/index'
+// import Introduction from '../components/Introduction/index'
 import Footer from '../components/footer'
 import Stats from '../components/prev_year_stats/index'
 import Events from '../components/events/index'
@@ -27,7 +27,7 @@ const Home: NextPage = () => {
       <main className={styles.main}>
         <Navbar />
         <HomeComp />
-        <Introduction />
+        {/* <Introduction /> */}
         <Stats />
         <Events />
         <Gallery />
