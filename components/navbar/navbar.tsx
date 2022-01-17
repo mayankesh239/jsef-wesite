@@ -228,7 +228,7 @@ const NAV_ITEMS: Array<NavItem> = [
     href: "/",
   },
   {
-    label: 'LETS LEARN MORE',
+    label: 'LET\'S LEARN MORE',
     href: "/LetsLearnMore",
   },
   {
