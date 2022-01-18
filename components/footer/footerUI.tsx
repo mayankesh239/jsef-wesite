@@ -10,7 +10,8 @@ import {
   chakra,
   useColorModeValue,
 } from '@chakra-ui/react';
-import { FaTwitter, FaYoutube, FaInstagram } from 'react-icons/fa';
+import { ExternalLinkIcon } from '@chakra-ui/icons'
+import { FaFacebook, FaYoutube, FaInstagram, FaLinkedin } from 'react-icons/fa';
 
 
 const ListHeader = ({ children }: { children: ReactNode }) => {
@@ -60,26 +61,29 @@ export default function LargeWithAppLinksAndSocial() {
       <Container as={Stack} maxW={'6xl'} py={20}>
         <SimpleGrid columns={{ base: 1, sm: 2, md: 3 }} spacing={8}>
           <Stack align={'flex-start'}>
-            <ListHeader>Reach Us</ListHeader>
-            <Link>Birla Insitute of Technology,
-            </Link>
-            <Link>Mesra, Ranchi - 835215</Link>
-            <Link>epac@bitmesra.ac.in
+            <ListHeader>REACH US</ListHeader>
+            <Text>Birla Insitute of Technology,
+            </Text>
+            <Text>Mesra, Ranchi - 835215</Text>
+            <Text>Email: epac@bitmesra.ac.in
+            </Text>
+            <Link href="https://epacbitmesra.in/" isExternal>
+              Our Website <ExternalLinkIcon mx='2px' />
             </Link>
           </Stack>
 
           <Stack align={'flex-start'}>
-            <ListHeader>Contact</ListHeader>
-            <Link>DHYAN</Link>
-            <Link>(+91-9523952623)</Link>
+            <ListHeader>CONTACTS</ListHeader>
+            <Text>DHYAN</Text>
+            <Text>(+91-9523952623)</Text>
             <Link>{" "}</Link>
 
-            <Link>TANYA</Link>
-            <Link>(+91-9934412901)</Link>
+            <Text>TANYA</Text>
+            <Text>(+91-9934412901)</Text>
             <Link>{" "}</Link>
 
-            <Link>PRIYANSH</Link>
-            <Link>(+91-6203993196)</Link>
+            <Text>PRIYANSH</Text>
+            <Text>(+91-6203993196)</Text>
             <Link>{" "}</Link>
 
           </Stack>
@@ -105,14 +109,17 @@ export default function LargeWithAppLinksAndSocial() {
           align={{ md: 'center' }}>
           <Text>© 2022 All rights reserved</Text>
           <Stack direction={'row'} spacing={6}>
-            <SocialButton label={'Twitter'} href={'#'}>
-              <FaTwitter />
+            <SocialButton label={'Facebook'} href={'https://www.facebook.com/epacbitmesra/'}>
+              <FaFacebook />
             </SocialButton>
-            <SocialButton label={'YouTube'} href={'#'}>
-              <FaYoutube />
+            <SocialButton label={'Linkedin'} href={'https://www.linkedin.com/company/epac-bitmesra/'}>
+              <FaLinkedin />
             </SocialButton>
-            <SocialButton label={'Instagram'} href={'#'}>
+            <SocialButton label={'Instagram'} href={'https://www.instagram.com/epac.bitmesra/'}>
               <FaInstagram />
+            </SocialButton>
+            <SocialButton label={'Youtube'} href={'https://www.youtube.com/channel/UCRbqoNdFxhiyIfZ6sRLAknw'}>
+              <FaYoutube />
             </SocialButton>
           </Stack>
         </Container>
