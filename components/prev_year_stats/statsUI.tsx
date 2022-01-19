@@ -40,13 +40,13 @@ export default function BasicStatistics() {
                 fontSize={'4xl'}
                 py={10}
                 fontWeight={'bold'}>
-                Previous Year Stats
+                PREVIOUS YEAR STATS
             </chakra.h1>
             <SimpleGrid columns={{ base: 1, md: 4 }} spacing={{ base: 5, lg: 8 }}>
-                <StatsCard title={'2'} stat={'Days'} />
-                <StatsCard title={'45+'} stat={'Institutions'} />
-                <StatsCard title={'700+'} stat={'Participants'} />
-                <StatsCard title={'3000+'} stat={'Facebook Likes'} />
+                <StatsCard title={'2'} stat={'DAYS'} />
+                <StatsCard title={'45+'} stat={'INSTITUTIONS'} />
+                <StatsCard title={'700+'} stat={'PARTICIPANTS'} />
+                <StatsCard title={'3000+'} stat={'FACEBOOK LIKES'} />
             </SimpleGrid>
         </Box>
     );
