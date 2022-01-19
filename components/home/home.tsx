@@ -42,7 +42,7 @@ export default function SplitScreen() {
                         <br />{' '}
                     </Heading>
                     <Text fontSize={{ base: 'md', lg: 'lg' }} color={'black.500'}>
-                        JSEF is our flagship event held every year in January and February.
+                        Jharkhand Science and Environment Festival (JSEF) is our flagship event held every year in January and February.
                         With this event, we aim to encourage the young generation to protect
                         and preserve the environment. JSEF is a multi-day fest filled with
                         enthralling events such as debates, model making and AdSense.
