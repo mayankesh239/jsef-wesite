@@ -81,7 +81,7 @@ const ArticleList = () => {
                             <Image
                                 borderRadius="lg"
                                 src={
-                                    'https://res.cloudinary.com/mayankesh/image/upload/v1640929513/jsef/quiz_lno4uk.webp'
+                                    'https://res.cloudinary.com/mayankesh/image/upload/v1642612501/jsef/register_nlnlk5.jpg'
                                 }
                                 alt="some good alt text"
                                 objectFit="contain"
@@ -117,7 +117,7 @@ const ArticleList = () => {
                         marginTop="2"
                         color={useColorModeValue('gray.700', 'gray.200')}
                         fontSize="lg">
-                            To register in any event <a href='https://forms.gle/47gscWtv3CVUBAZH9'>Click Here</a>
+                            To register in any event <Link><a href='https://forms.gle/47gscWtv3CVUBAZH9'>CLICK HERE</a></Link>
                     </Text>
                 </Box>
             </Box>
