@@ -15,9 +15,9 @@ import coverPic from '../../public/cover.webp'
 export default function SplitScreen() {
     return (
         <Stack minH={'100vh'} direction={{ base: 'column', md: 'row' }} className={styles.bgcol}>
-            <Flex p={4} flex={1} align={'center'} justify={'center'}>
-                <Stack spacing={2} w={'full'} maxW={'lg'}>
-                <Image   boxSize='300px' src='https://res.cloudinary.com/mayankesh/image/upload/v1642593183/jsef/JSEFlogo_dsrxya.png' alt='Dan Abramov' />
+            <Flex p={8} flex={1} align={'center'} justify={'center'}>
+                <Stack spacing={6} w={'full'} maxW={'lg'}>
+                    <Image boxSize='300px' src='https://res.cloudinary.com/mayankesh/image/upload/v1642593183/jsef/JSEFlogo_dsrxya.png' alt='JSEF' />
                     <Heading fontSize={{ base: '3xl', md: '4xl', lg: '5xl' }}>
                         <Text
                             as={'span'}
