@@ -1,18 +1,34 @@
 .faq_collection {
-  margin: auto;
-  max-width: 600px;
+  display: flex;
+  flex-direction: row;
+  // margin-top: 3%;
+  padding-left: 2%;
+  padding-right: 2%;
+
+}
+
+.ifr {
+  height: 40vw;
+  max-width: 80vw;
   width: 100%;
-  //   height: 29vw;
-  //   margin-left: 5%;
-  //   margin-right: 5%;
-  height: 350px;
-  margin-top: 6%;
-  margin-bottom: 4%;
+  margin: 2%;
   box-shadow: 1px 4px 15px 5px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 1px 4px 15px 5px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 1px 4px 15px 5px rgba(0, 0, 0, 0.75);
-  @media screen and (max-width: 600px){
-    width: 100%;
-    height: 300px;
+}
+
+.ifr1 {
+  height: 40vw;
+  max-width: 60vw;
+  margin: 2%;
+  box-shadow: 1px 4px 15px 5px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px 4px 15px 5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 4px 15px 5px rgba(0, 0, 0, 0.75);
+}
+
+@media screen and (max-width: 600px) {
+  .faq_collection{
+    display: flex;
+    flex-direction: row;
   }
 }
