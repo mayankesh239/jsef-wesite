@@ -119,7 +119,7 @@ const ArticleList = () => {
                         color={useColorModeValue('gray.700', 'gray.200')}
                         fontSize="lg">
                         “The pen is mightier than the sword.”
-                        <br />Revolutions and radical ideas are best conveyed via simple words understood en masse. Not everyone writes words that sway people and win them over; only a certain few have the skill to do so. In “PENolution” (a concatenation of pen and revolution), the participants' grasp on environmental issues and eco-friendly practices are tested in the form of an essay where their eloquence and their hand on language will be deciding factor. The topic of the essay will be shared the day before the event.           </Text>
+                        <br />Revolutions and radical ideas are best conveyed via simple words understood en masse. Not everyone writes words that sway people and win them over; only a certain few have the skill to do so. In “PENolution” (a concatenation of pen and revolution), the participants&apos; grasp on environmental issues and eco-friendly practices are tested in the form of an essay where their eloquence and their hand on language will be deciding factor. The topic of the essay will be shared the day before the event.           </Text>
                     <br /> <a href="https://forms.gle/VUNzuSwt3MZPackZ7">
                         <Button colorScheme='teal' size='md'>
                             SUBMIT HERE
