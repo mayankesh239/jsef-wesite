@@ -252,6 +252,10 @@ const NAV_ITEMS: Array<NavItem> = [
     href: "/LuckyBrainiacs",
   },
   {
+    label: 'PENOLUTION',
+    href: "/PENolution",
+  },
+  {
     label: 'REGISTER',
     href: "/Register",
   },
