@@ -121,11 +121,13 @@ const ArticleList = () => {
                 </Box>
             </Box>
             <Divider marginTop="5" />
-            {/* <VStack paddingTop="40px" spacing="2" alignItems="flex-start"> */}
-                {/* <Heading as="h2">What we write about</Heading> */}
-                {/* <Text as="p" fontSize="lg">
-                    A Quiz is always one of the most exciting events where sheer intelligence, eminent knowledge and self-awareness are put to test at a single go! Science, technology and environment quiz for students from all over the state is conducted where we look for a brain that will battle through a gruelling competition of brilliance and emerge Victors!                </Text> */}
-            {/* </VStack> */}
+            <VStack paddingTop="40px" spacing="2" alignItems="flex-start">
+                <Heading as="h2">Join US (at 11 am) </Heading>
+                <Text as="p" fontSize="lg">
+                To join the video meeting, click this link: <Link href='https://meet.google.com/yur-cxiy-bej'>https://meet.google.com/yur-cxiy-bej</Link>
+                <br/>Otherwise, to join by phone, dial +1 347-754-5169 and enter this PIN: 840 912 218#
+                </Text>
+            </VStack>
         </Container>
     );
 };

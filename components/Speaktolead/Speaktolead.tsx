@@ -58,7 +58,7 @@ const ArticleList = () => {
   return (
     <Container maxW={'7xl'} p="12">
       <Heading as="h1">
-      Speak to lead</Heading>
+        Speak to lead</Heading>
       <Box
         marginTop={{ base: '1', sm: '5' }}
         display="flex"
@@ -119,9 +119,11 @@ const ArticleList = () => {
       </Box>
       <Divider marginTop="5" />
       <VStack paddingTop="40px" spacing="2" alignItems="flex-start">
-        {/* <Heading as="h2">What we write about</Heading> */}
-        {/* <Text as="p" fontSize="lg">
-          This event is made of two conventional rounds. The Preliminary round is an extempore and the final round is a parliamentary debate competition for which the topic based on Science and Environment is announced after the prelims.              </Text> */}
+        <Heading as="h2">Join US (at 9 am) </Heading>
+        <Text as="p" fontSize="lg">
+          To join the video meeting, click this link: <Link href=' https://meet.google.com/aek-ujpm-enp'> https://meet.google.com/aek-ujpm-enp</Link>
+          <br />Otherwise, to join by phone, dial +1 347-754-5169 and enter this PIN: 840 912 218#
+        </Text>
       </VStack>
     </Container>
   );
