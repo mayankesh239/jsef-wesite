@@ -31,7 +31,7 @@ const Home: NextPage = () => {
         <Stats />
         <Events />
         <Gallery />
-        {/* <Sponsors /> */}
+        <Sponsors />
         <Faq/>
         <Footer />
       </main>
