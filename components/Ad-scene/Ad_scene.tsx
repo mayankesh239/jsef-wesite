@@ -125,8 +125,8 @@ const ArticleList = () => {
             <VStack paddingTop="40px" spacing="2" alignItems="flex-start">
                 <Heading as="h2">Join US (at 1 pm) </Heading>
                 <Text as="p" fontSize="lg">
-                To join the video meeting, click this link: <Link href='https://meet.google.com/wum-jsfr-rxz'>https://meet.google.com/wum-jsfr-rxz</Link>
-                <br/>Otherwise, to join by phone, dial +1 347-754-5169 and enter this PIN: 840 912 218#
+                To join the video meeting, click this link: <Link href='https://meet.google.com/uyg-ebdq-ovc'>https://meet.google.com/uyg-ebdq-ovc</Link>
+                {/* <br/>Otherwise, to join by phone, dial +1 347-754-5169 and enter this PIN: 840 912 218# */}
                 </Text>
             </VStack>
     </Container>

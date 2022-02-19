@@ -132,7 +132,7 @@ const ArticleList = () => {
                 <Heading as="h2">Join US (at 12 pm) </Heading>
                 <Text as="p" fontSize="lg">
                     To join the video meeting, click this link: <Link href='https://meet.google.com/dow-bqbr-oqe'> https://meet.google.com/dow-bqbr-oqe </Link>
-                    <br />Otherwise, to join by phone, dial +1 347-754-5169 and enter this PIN: 840 912 218#
+                    {/* <br />Otherwise, to join by phone, dial +1 347-754-5169 and enter this PIN: 840 912 218# */}
                 </Text>
             </VStack>
         </Container>
