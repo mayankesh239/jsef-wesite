@@ -11,6 +11,7 @@ import Gallery from "../components/Gallery/index"
 import Sponsors from "../components/sponsors/index"
 import Navbar from "../components/navbar/index"
 import Faq from '../components/faq'
+import Results from '../components/results/index'
 
 import { ColorModeScript } from '@chakra-ui/react'
 import theme from './api/theme'
@@ -31,6 +32,7 @@ const Home: NextPage = () => {
         <Stats />
         <Events />
         <Gallery />
+        <Results/>
         <Sponsors />
         <Faq/>
         <Footer />
